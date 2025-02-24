@@ -1,5 +1,6 @@
 import { Radio } from 'lucide-react'
 import Image from 'next/image'
+import { Suspense } from 'react'
 import logo from '../../assets/logo.svg'
 import { SubscriptionForm } from './subscription-form'
 
@@ -39,7 +40,15 @@ export default function Home() {
           </p>
         </div>
 
-        <SubscriptionForm />
+        <Suspense
+          fallback={
+            <p className="text-gray-300 leading-relaxed text-sm md:text-base">
+              Carregando formulário...
+            </p>
+          }
+        >
+          <SubscriptionForm />
+        </Suspense>
       </div>
     </div>
   )
