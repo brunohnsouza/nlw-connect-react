@@ -9,6 +9,7 @@ Projeto desenvolvido durante o NLW Connect da [Rocketseat](https://app.rocketsea
 - [Ferramentas](#ferramentas)
 - [Instalação](#instalação)
 - [Funcionalidade](#funcionalidades)
+- [Demonstração](#demonstração)
 - [Layout](#layout)
 - [Licença](#licença)
 
@@ -99,6 +100,8 @@ O projeto oferece as seguintes funcionalidades:
 - **Visualização do Ranking Geral**: Exibe o ranking completo com a quantidade de convites aceitos por cada usuário.
 
 ## Demonstração
+
+https://github.com/user-attachments/assets/40fa54d0-3b65-4db7-b341-52523c1d7b90
 
 ## Layout
 
